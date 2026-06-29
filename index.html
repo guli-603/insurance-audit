@@ -77,7 +77,7 @@
         error.style.display = "none";
         retryBtn.style.display = "none";
 
-        var url = "https://gist.githubusercontent.com/raw/" + GIST_ID + "/" + GIST_FILENAME + "?t=" + Date.now();
+        var url = "https://gist.githubusercontent.com/guli-603/" + GIST_ID + "/raw/" + GIST_FILENAME + "?t=" + Date.now();
 
         fetch(url)
             .then(function(res) {
